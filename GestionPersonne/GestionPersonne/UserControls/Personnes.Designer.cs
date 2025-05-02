@@ -52,7 +52,7 @@ namespace GestionPersonne.UserControls
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(416, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(210, 43);
@@ -76,7 +76,7 @@ namespace GestionPersonne.UserControls
             this.tablePerson.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tablePerson.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Black;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
@@ -100,7 +100,7 @@ namespace GestionPersonne.UserControls
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.tablePerson.DefaultCellStyle = dataGridViewCellStyle3;
             this.tablePerson.EnableHeadersVisualStyles = false;
-            this.tablePerson.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.tablePerson.GridColor = System.Drawing.Color.Black;
             this.tablePerson.Location = new System.Drawing.Point(3, 156);
             this.tablePerson.MultiSelect = false;
             this.tablePerson.Name = "tablePerson";
@@ -110,7 +110,7 @@ namespace GestionPersonne.UserControls
             dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle4.ForeColor = System.Drawing.Color.DimGray;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Black;
             this.tablePerson.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.tablePerson.RowTemplate.Height = 30;
             this.tablePerson.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -158,11 +158,11 @@ namespace GestionPersonne.UserControls
             // 
             // btAdd
             // 
-            this.btAdd.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btAdd.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btAdd.FlatAppearance.BorderSize = 2;
             this.btAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btAdd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btAdd.ForeColor = System.Drawing.Color.Black;
             this.btAdd.Location = new System.Drawing.Point(3, 78);
             this.btAdd.Name = "btAdd";
             this.btAdd.Size = new System.Drawing.Size(261, 45);
@@ -174,11 +174,11 @@ namespace GestionPersonne.UserControls
             // btMod
             // 
             this.btMod.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btMod.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btMod.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btMod.FlatAppearance.BorderSize = 2;
             this.btMod.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btMod.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btMod.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btMod.ForeColor = System.Drawing.Color.Black;
             this.btMod.Location = new System.Drawing.Point(393, 78);
             this.btMod.Name = "btMod";
             this.btMod.Size = new System.Drawing.Size(261, 45);
@@ -190,11 +190,11 @@ namespace GestionPersonne.UserControls
             // btSup
             // 
             this.btSup.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btSup.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btSup.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btSup.FlatAppearance.BorderSize = 2;
             this.btSup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btSup.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSup.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btSup.ForeColor = System.Drawing.Color.Black;
             this.btSup.Location = new System.Drawing.Point(764, 78);
             this.btSup.Name = "btSup";
             this.btSup.Size = new System.Drawing.Size(261, 45);
