@@ -48,9 +48,10 @@ namespace GestionPersonne
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.panel1.BackColor = System.Drawing.Color.Black;
             this.panel1.Controls.Add(this.btExit);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.ForeColor = System.Drawing.Color.Black;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(403, 58);
@@ -75,7 +76,7 @@ namespace GestionPersonne
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(83, 61);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(229, 37);
@@ -86,7 +87,7 @@ namespace GestionPersonne
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(12, 127);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(174, 24);
@@ -96,7 +97,7 @@ namespace GestionPersonne
             // serverType
             // 
             this.serverType.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.serverType.ForeColor = System.Drawing.Color.Teal;
+            this.serverType.ForeColor = System.Drawing.Color.DimGray;
             this.serverType.FormattingEnabled = true;
             this.serverType.Items.AddRange(new object[] {
             "Sql Server",
@@ -110,7 +111,7 @@ namespace GestionPersonne
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(12, 207);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(174, 24);
@@ -121,7 +122,7 @@ namespace GestionPersonne
             // 
             this.ServerName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ServerName.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ServerName.ForeColor = System.Drawing.Color.Teal;
+            this.ServerName.ForeColor = System.Drawing.Color.DimGray;
             this.ServerName.Location = new System.Drawing.Point(17, 236);
             this.ServerName.Name = "ServerName";
             this.ServerName.Size = new System.Drawing.Size(374, 35);
@@ -131,7 +132,7 @@ namespace GestionPersonne
             // 
             this.userName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.userName.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userName.ForeColor = System.Drawing.Color.Teal;
+            this.userName.ForeColor = System.Drawing.Color.DimGray;
             this.userName.Location = new System.Drawing.Point(17, 316);
             this.userName.Name = "userName";
             this.userName.Size = new System.Drawing.Size(374, 35);
@@ -141,7 +142,7 @@ namespace GestionPersonne
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(12, 287);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(115, 24);
@@ -152,7 +153,7 @@ namespace GestionPersonne
             // 
             this.Password.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Password.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Password.ForeColor = System.Drawing.Color.Teal;
+            this.Password.ForeColor = System.Drawing.Color.DimGray;
             this.Password.Location = new System.Drawing.Point(17, 400);
             this.Password.Name = "Password";
             this.Password.Size = new System.Drawing.Size(374, 35);
@@ -162,7 +163,7 @@ namespace GestionPersonne
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(12, 371);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(142, 24);
@@ -171,11 +172,11 @@ namespace GestionPersonne
             // 
             // button1
             // 
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button1.FlatAppearance.BorderSize = 2;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(16, 487);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(374, 53);
