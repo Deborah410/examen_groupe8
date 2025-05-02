@@ -48,7 +48,7 @@ namespace GestionPersonne.Modals
             // 
             this.titre.AutoSize = true;
             this.titre.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.titre.ForeColor = System.Drawing.Color.Black;
             this.titre.Location = new System.Drawing.Point(57, 61);
             this.titre.Name = "titre";
             this.titre.Size = new System.Drawing.Size(286, 37);
@@ -57,7 +57,7 @@ namespace GestionPersonne.Modals
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.panel1.BackColor = System.Drawing.Color.Black;
             this.panel1.Controls.Add(this.btExit);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -83,11 +83,11 @@ namespace GestionPersonne.Modals
             // btSave
             // 
             this.btSave.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btSave.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btSave.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btSave.FlatAppearance.BorderSize = 2;
             this.btSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btSave.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btSave.ForeColor = System.Drawing.Color.Black;
             this.btSave.Location = new System.Drawing.Point(6, 471);
             this.btSave.Name = "btSave";
             this.btSave.Size = new System.Drawing.Size(392, 53);
@@ -100,7 +100,7 @@ namespace GestionPersonne.Modals
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(8, 113);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(58, 24);
@@ -111,7 +111,7 @@ namespace GestionPersonne.Modals
             // 
             this.txtname.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtname.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtname.ForeColor = System.Drawing.Color.Teal;
+            this.txtname.ForeColor = System.Drawing.Color.DimGray;
             this.txtname.Location = new System.Drawing.Point(12, 140);
             this.txtname.Name = "txtname";
             this.txtname.Size = new System.Drawing.Size(380, 35);
@@ -121,7 +121,7 @@ namespace GestionPersonne.Modals
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(8, 197);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(110, 24);
@@ -132,7 +132,7 @@ namespace GestionPersonne.Modals
             // 
             this.txtpost.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtpost.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpost.ForeColor = System.Drawing.Color.Teal;
+            this.txtpost.ForeColor = System.Drawing.Color.DimGray;
             this.txtpost.Location = new System.Drawing.Point(12, 224);
             this.txtpost.Name = "txtpost";
             this.txtpost.Size = new System.Drawing.Size(380, 35);
@@ -142,7 +142,7 @@ namespace GestionPersonne.Modals
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(8, 281);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(90, 24);
@@ -153,7 +153,7 @@ namespace GestionPersonne.Modals
             // 
             this.txtpre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtpre.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpre.ForeColor = System.Drawing.Color.Teal;
+            this.txtpre.ForeColor = System.Drawing.Color.DimGray;
             this.txtpre.Location = new System.Drawing.Point(12, 308);
             this.txtpre.Name = "txtpre";
             this.txtpre.Size = new System.Drawing.Size(380, 35);
@@ -163,7 +163,7 @@ namespace GestionPersonne.Modals
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(8, 364);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(59, 24);
@@ -173,7 +173,7 @@ namespace GestionPersonne.Modals
             // txtSex
             // 
             this.txtSex.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSex.ForeColor = System.Drawing.Color.Teal;
+            this.txtSex.ForeColor = System.Drawing.Color.DimGray;
             this.txtSex.FormattingEnabled = true;
             this.txtSex.Items.AddRange(new object[] {
             "F",
