@@ -14,10 +14,10 @@ namespace GestionPersonne
 {
     public partial class Menu : Form
     {
-        private Color activeForeColor = Color.FromArgb(0, 192, 192);
+        private Color activeForeColor = Color.Black;
         private Color activeBackColor = Color.FromKnownColor(KnownColor.Control);
         private Color defaultForeColor = Color.White;
-        private Color defaultBackColor = Color.FromArgb(0, 192, 192);
+        private Color defaultBackColor = Color.Black;
         private readonly string configFilePath = Application.StartupPath + @"\config.ini";
         public Menu()
         {
@@ -153,6 +153,11 @@ namespace GestionPersonne
 
                 MessageBox.Show("Suppression Annulee??", "Configuration", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

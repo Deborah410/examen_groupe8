@@ -48,7 +48,7 @@ namespace GestionPersonne.Modals
             // 
             this.titre.AutoSize = true;
             this.titre.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.titre.ForeColor = System.Drawing.Color.Black;
             this.titre.Location = new System.Drawing.Point(53, 58);
             this.titre.Name = "titre";
             this.titre.Size = new System.Drawing.Size(300, 37);
@@ -57,7 +57,7 @@ namespace GestionPersonne.Modals
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.panel1.BackColor = System.Drawing.Color.Black;
             this.panel1.Controls.Add(this.btExit);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -83,11 +83,11 @@ namespace GestionPersonne.Modals
             // btSave
             // 
             this.btSave.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btSave.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btSave.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btSave.FlatAppearance.BorderSize = 2;
             this.btSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btSave.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btSave.ForeColor = System.Drawing.Color.Black;
             this.btSave.Location = new System.Drawing.Point(12, 385);
             this.btSave.Name = "btSave";
             this.btSave.Size = new System.Drawing.Size(377, 53);
@@ -100,7 +100,7 @@ namespace GestionPersonne.Modals
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(8, 188);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(142, 24);
@@ -111,7 +111,7 @@ namespace GestionPersonne.Modals
             // 
             this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPass.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPass.ForeColor = System.Drawing.Color.Teal;
+            this.txtPass.ForeColor = System.Drawing.Color.DimGray;
             this.txtPass.Location = new System.Drawing.Point(12, 215);
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(377, 35);
@@ -122,7 +122,7 @@ namespace GestionPersonne.Modals
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(8, 113);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(168, 24);
@@ -133,7 +133,7 @@ namespace GestionPersonne.Modals
             // 
             this.txtutilisateur.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtutilisateur.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtutilisateur.ForeColor = System.Drawing.Color.Teal;
+            this.txtutilisateur.ForeColor = System.Drawing.Color.DimGray;
             this.txtutilisateur.Location = new System.Drawing.Point(12, 140);
             this.txtutilisateur.Name = "txtutilisateur";
             this.txtutilisateur.Size = new System.Drawing.Size(377, 35);
@@ -143,7 +143,7 @@ namespace GestionPersonne.Modals
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(8, 268);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(251, 24);
@@ -154,7 +154,7 @@ namespace GestionPersonne.Modals
             // 
             this.txtConfPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtConfPass.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtConfPass.ForeColor = System.Drawing.Color.Teal;
+            this.txtConfPass.ForeColor = System.Drawing.Color.DimGray;
             this.txtConfPass.Location = new System.Drawing.Point(12, 295);
             this.txtConfPass.Name = "txtConfPass";
             this.txtConfPass.Size = new System.Drawing.Size(377, 35);
