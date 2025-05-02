@@ -172,6 +172,8 @@ namespace GestionPersonne
             // 
             // btDecon
             // 
+            this.btDecon.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btDecon.FlatAppearance.BorderSize = 0;
             this.btDecon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btDecon.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
