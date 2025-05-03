@@ -15,7 +15,7 @@ namespace GestionPersonne.Classes
         private SqlConnection sqlcon;
         private SqlCommand sqlcmd;
 
-        public bool AjouterTel(int idP, String initial, String num)
+        public bool AjouteTel(int idP, String initial, String num)
         {
             bool saved = false;
             db = new Config();
