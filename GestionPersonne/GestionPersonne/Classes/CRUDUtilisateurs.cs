@@ -16,7 +16,7 @@ namespace GestionPersonne.Classes
         private SqlConnection sqlcon;
         private SqlCommand sqlcmd;
 
-        public bool AjouteUtilisateur(String username, String password)
+        public bool AjouteUtilisateurs(String username, String password)
         {
             sqlcon = db.getSqlConnection();
             cryptage = new Cryptage();
