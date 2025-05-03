@@ -50,7 +50,7 @@ namespace GestionPersonne.Classes
             return false;
         }
 
-        public bool ModifierUtilisateur(int id, String username, String password)
+        public bool ModifieUtilisateur(int id, String username, String password)
         {
             bool saved = false;
             sqlcon = db.getSqlConnection();
