@@ -15,7 +15,7 @@ namespace GestionPersonne.Classes
         private SqlConnection sqlcon;
         private SqlCommand sqlcmd;
 
-        public bool AjouterAdresse(int idP, String Av, String Qua, String com, String ville, String pays)
+        public bool AjouterAdress(int idP, String Av, String Qua, String com, String ville, String pays)
         {
             bool saved = false;
             db = new Config();
