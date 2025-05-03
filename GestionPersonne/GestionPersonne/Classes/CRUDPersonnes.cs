@@ -14,7 +14,7 @@ namespace GestionPersonne.Classes
         private Config db;
         private SqlConnection sqlcon;
         private SqlCommand sqlcmd;
-        public bool AjouterPersonne(String name, String lastname, String firstname, char sex)
+        public bool AjoutePersonne(String name, String lastname, String firstname, char sex)
         {
             bool saved = false;
             db = new Config();
