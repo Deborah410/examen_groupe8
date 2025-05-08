@@ -44,6 +44,8 @@ namespace GestionPersonne.UserControls
             this.btAdd = new System.Windows.Forms.Button();
             this.btMod = new System.Windows.Forms.Button();
             this.btSup = new System.Windows.Forms.Button();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.tablePerson)).BeginInit();
             this.SuspendLayout();
             // 
@@ -101,7 +103,7 @@ namespace GestionPersonne.UserControls
             this.tablePerson.DefaultCellStyle = dataGridViewCellStyle3;
             this.tablePerson.EnableHeadersVisualStyles = false;
             this.tablePerson.GridColor = System.Drawing.Color.Black;
-            this.tablePerson.Location = new System.Drawing.Point(3, 156);
+            this.tablePerson.Location = new System.Drawing.Point(3, 192);
             this.tablePerson.MultiSelect = false;
             this.tablePerson.Name = "tablePerson";
             this.tablePerson.ReadOnly = true;
@@ -114,7 +116,7 @@ namespace GestionPersonne.UserControls
             this.tablePerson.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.tablePerson.RowTemplate.Height = 30;
             this.tablePerson.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.tablePerson.Size = new System.Drawing.Size(1022, 480);
+            this.tablePerson.Size = new System.Drawing.Size(1022, 444);
             this.tablePerson.TabIndex = 29;
             this.tablePerson.Click += new System.EventHandler(this.tablePerson_Click);
             // 
@@ -203,10 +205,36 @@ namespace GestionPersonne.UserControls
             this.btSup.UseVisualStyleBackColor = true;
             this.btSup.Click += new System.EventHandler(this.btSup_Click);
             // 
+            // txtSearch
+            // 
+            this.txtSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.txtSearch.BackColor = System.Drawing.SystemColors.Control;
+            this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSearch.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearch.Location = new System.Drawing.Point(307, 147);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(424, 32);
+            this.txtSearch.TabIndex = 41;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
+            // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(183, 149);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(120, 24);
+            this.label2.TabIndex = 42;
+            this.label2.Text = "Recherche";
+            // 
             // Personnes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.btSup);
             this.Controls.Add(this.btMod);
             this.Controls.Add(this.btAdd);
@@ -234,5 +262,7 @@ namespace GestionPersonne.UserControls
         private System.Windows.Forms.Button btAdd;
         private System.Windows.Forms.Button btMod;
         private System.Windows.Forms.Button btSup;
+        private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.Label label2;
     }
 }

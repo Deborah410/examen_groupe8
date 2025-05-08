@@ -155,10 +155,11 @@ namespace GestionPersonne.Modals
                 {
                     idP = Convert.ToInt32(ListePersonnes.SelectedValue);
                     Classes.CRUDTelephones add = new Classes.CRUDTelephones();
-                    if (add.AjouterTel(idP, txtInitial.Text, txtNum.Text) == true)
+                    if (add.AjouteTel(idP, txtInitial.Text, txtNum.Text) == true)
                     {
                         (phone as UserControls.Telephones).AfficherTelephone("");
                         MessageBox.Show("Numero de Telephone ajoute Avec Succee", "Ajouter", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        this.Close();
                     }
                     else
                     {
@@ -176,6 +177,7 @@ namespace GestionPersonne.Modals
                         {
                             (phone as UserControls.Telephones).AfficherTelephone("");
                             MessageBox.Show("Numero de Telephone Modifier Avec Succee", "Modifier", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            this.Close();
                         }
                         else
                         {

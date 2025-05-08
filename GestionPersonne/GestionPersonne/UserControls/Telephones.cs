@@ -156,5 +156,22 @@ namespace GestionPersonne.UserControls
         {
             AfficherTelephone("");
         }
+
+        private void txtSearch_SizeChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+            if (txtSearch.Text == "")
+            {
+                AfficherTelephone("");
+            }
+            else
+            {
+                AfficherTelephone(txtSearch.Text);
+            }
+        }
     }
 }

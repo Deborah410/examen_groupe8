@@ -153,7 +153,7 @@ namespace GestionPersonne.Modals
                 {
                     Classes.CRUDAdresses add = new Classes.CRUDAdresses();
                     idP = Convert.ToInt32(ListePersonnes.SelectedValue);
-                    if (add.AjouterAdresse(idP, txtAv.Text, txtQ.Text, txtCom.Text, txtVi.Text, comboCountry.Text) == true)
+                    if (add.AjouterAdress(idP, txtAv.Text, txtQ.Text, txtCom.Text, txtVi.Text, comboCountry.Text) == true)
                     {
                         (adress as UserControls.Adresses).AfficherAdresses("");
                         MessageBox.Show("Adresse Ajouter Avec Succee", "Ajouter", MessageBoxButtons.OK, MessageBoxIcon.Information);

@@ -146,5 +146,17 @@ namespace GestionPersonne.UserControls
             Modals.AddUpdateUtilisateur add = new Modals.AddUpdateUtilisateur(this);
             add.ShowDialog();
         }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+            if (txtSearch.Text == "")
+            {
+                AfficherUtilisateur("");
+            }
+            else
+            {
+                AfficherUtilisateur(txtSearch.Text);
+            }
+        }
     }
 }

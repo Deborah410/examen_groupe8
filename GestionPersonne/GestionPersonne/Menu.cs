@@ -55,6 +55,7 @@ namespace GestionPersonne
             btAdd.ForeColor = defaultForeColor;
             btUsers.BackColor = defaultBackColor;
             btUsers.ForeColor = defaultForeColor;
+            Personnes.interfaces.AfficherPersonnes("");
             if (!ControlerUser.Controls.Contains(Personnes.interfaces))
             {
                 ControlerUser.Controls.Add(Personnes.interfaces);
@@ -77,6 +78,7 @@ namespace GestionPersonne
             btAdd.ForeColor = defaultForeColor;
             btUsers.BackColor = defaultBackColor;
             btUsers.ForeColor = defaultForeColor;
+            Telephones.interfaces.AfficherTelephone("");
             if (!ControlerUser.Controls.Contains(Telephones.interfaces))
             {
                 ControlerUser.Controls.Add(Telephones.interfaces);
@@ -99,6 +101,7 @@ namespace GestionPersonne
             btAdd.ForeColor = activeForeColor;
             btUsers.BackColor = defaultBackColor;
             btUsers.ForeColor = defaultForeColor;
+            Adresses.interfaces.AfficherAdresses("");
             if (!ControlerUser.Controls.Contains(Adresses.interfaces))
             {
                 ControlerUser.Controls.Add(Adresses.interfaces);
@@ -121,6 +124,7 @@ namespace GestionPersonne
             btAdd.ForeColor = defaultForeColor;
             btUsers.BackColor = activeBackColor;
             btUsers.ForeColor = activeForeColor;
+            Utilisateurs.interfaces.AfficherUtilisateur("");
             if (!ControlerUser.Controls.Contains(Utilisateurs.interfaces))
             {
                 ControlerUser.Controls.Add(Utilisateurs.interfaces);
